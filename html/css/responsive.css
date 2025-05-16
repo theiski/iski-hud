@@ -1,0 +1,971 @@
+.responsive {
+    position: absolute !important;
+}
+
+@media (min-width: 2560px) {
+    .name_project {
+		text-align: center;
+	}
+
+    .name_project span:first-child {
+		font-size: 4.0741vh;
+		font-family: 'Akrobat';
+		background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 172.92%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		letter-spacing: -0.1vh;
+		text-shadow: 0vw 0vw 2.963vh rgba(255, 255, 255, 0.15);
+	}
+
+	.name_project span:last-child {
+		margin-top: -3.2407vh;
+		font-size: 4.0741vh;
+		font-family: 'Shadows';
+		transform: skew(-10deg);
+		color: #FFAD00;
+		text-align: center;
+		text-shadow: 0vw 0vw 2.963vh rgba(255, 173, 0, 0.50);
+	}
+
+    .r_shadow {
+		position: absolute;
+		top: -29.4444vh;
+		right: -39.0741vh;
+		width: 88.7037vh;
+		height: 58.8889vh;
+		border-radius: 100%;
+		background: rgba(0, 0, 0, 0.85);
+		filter: blur(16.2963vh);
+	}
+
+    .r_wrap {
+		position: absolute;
+		top: 1.2444vh;
+		right: 1.8519vh;
+	}
+
+    .wrap_stats .wr_stat {
+		margin-right: 1.1111vh;
+	}
+
+	.wrap_stats .wr_stat:first-child {
+		margin-right: 0;
+	}
+
+	.wrap_stats {
+		margin-right: 2.2222vh;
+	}
+
+    .wr_stat img {
+		width: 1.6667vh;
+		height: 1.6667vh;
+	}
+
+    .row_stat {
+		text-align: right;
+		margin-right: 0.7407vh;
+	}
+
+	.row_stat span:first-child {
+		font-size: 1.4815vh;
+		font-family: 'Regular';
+		color: rgba(255, 255, 255, 0.50);
+	}
+
+	.row_stat span:last-child {
+		font-size: 1.4815vh;
+		font-family: 'SemiBold';
+		margin-top: -0.0926vh;
+	}
+
+    .pre_wrap_money {
+		margin-top: 0.7407vh;
+	}
+
+	.pre_wrap_money:first-child {
+		margin-top: 0;
+	}
+
+    .wallet .line_mn {
+		width: 0.1852vh;
+		height: auto;
+		background: #FF2323;
+		box-shadow: 0vw 0vw 1.7315vh 0vw #FF2323;
+	}
+
+    .wallet .money_wrap {
+		background: linear-gradient(270deg, rgba(255, 35, 35, 0.15) 1.26%, rgba(0, 0, 0, 0.00) 100%);
+	}
+
+    .row_money {
+		text-align: right;
+	}
+
+    .row_money {
+		margin-right: 0.7407vh;
+	}
+
+    .descrmny {
+		font-size: 1.4815vh;
+		font-family: 'Regular';
+		color: rgba(255, 255, 255, 0.50);
+	}
+
+    .moneytx {
+		font-size: 1.4815vh;
+		font-family: 'SemiBold';
+		text-shadow: 0vw 0vw 3.7037vh rgba(255, 255, 255, 0.50);
+	}
+
+    .bank .line_mn {
+		width: 0.1852vh;
+		height: auto;
+		background: #FFAD00;
+		box-shadow: 0vw 0vw 1.7315vh 0vw #FFAD00;
+	}
+
+    .bank .money_wrap {
+		background: linear-gradient(270deg, rgba(255, 173, 0, 0.15) 1.26%, rgba(0, 0, 0, 0.00) 100%);
+	}
+
+    .gun_wrap {
+		margin-top: 4.4444vh;
+	}
+
+    .gun_wrap img {
+		width: 10.7407vh;
+		height: 3.8889vh;
+		margin-left: auto;
+	}
+
+	.gun_wrap {
+		margin-left: auto;
+	}
+
+    .ammo_wrap {
+		margin-left: auto;
+		margin-top: 1.1111vh;
+	}
+
+    .ammo_ammount {
+		height: 2.3148vh;
+		padding-right: 0.7407vh;
+		padding-left: 0.7407vh;
+		border-radius: 0.0926vh;
+		background: radial-gradient(489.67% 195.9% at 50% 50%, rgba(255, 35, 35, 0.45) 0%, rgba(255, 35, 35, 0.00) 100%);
+	}
+
+    .whiteammo {
+		font-size: 1.4815vh;
+		font-family: 'Medium';
+	}
+
+    .grayammo {
+		font-family: 'Regular';
+		color: rgba(255, 255, 255, 0.50);
+	}
+
+    .ammo_box {
+		width: 2.3148vh;
+		height: 2.3148vh;
+		border-radius: 0.1852vh;
+		border: 0.0926vh solid #FF2323;
+		margin-left: 0.7407vh;
+		background: radial-gradient(50% 50% at 50% 50%, #680909 0%, #FF2323 100%);
+		box-shadow: 0vw 0vw 4.4444vh 0vw rgba(255, 35, 35, 0.50);
+	}
+
+	.ammo_box svg {
+		width: 1.2963vh;
+		height: 1.2963vh;
+	}
+    
+    .notify {
+		padding: 1.4815vh;
+		width: 26.8519vh;
+	}
+
+	.announce {
+		padding: 2.2222vh;
+		width: 44.7222vh;
+	}
+
+	.announce .header_notify span {
+		margin-left: 0;
+		font-size: 2.963vh;
+	}
+
+	.notify_success .notify {
+		background: radial-gradient(357.81% 78.19% at -2.25% -17.21%, rgba(189, 255, 0, 0.15) 0%, rgba(189, 255, 0, 0.00) 100%), radial-gradient(351.4% 98.59% at 89.89% 190.16%, rgba(189, 255, 0, 0.15) 0%, rgba(189, 255, 0, 0.00) 100%), rgba(0, 0, 0, 0.95);
+	}
+
+	.notify_error .notify {
+		background: radial-gradient(357.81% 78.19% at -2.25% -17.21%, rgba(255, 35, 35, 0.15) 0%, rgba(255, 35, 35, 0.00) 100%), radial-gradient(351.4% 98.59% at 89.89% 190.16%, rgba(255, 35, 35, 0.15) 0%, rgba(255, 35, 35, 0.00) 100%), rgba(0, 0, 0, 0.95);
+	}
+
+	.notify_warning .notify,
+	.announce,
+	.notify_team .notify {
+		background: radial-gradient(357.81% 78.19% at -2.25% -17.21%, rgba(255, 193, 35, 0.15) 0%, rgba(255, 193, 35, 0.00) 100%), radial-gradient(351.4% 98.59% at 89.89% 190.16%, rgba(255, 193, 35, 0.15) 0%, rgba(255, 193, 35, 0.00) 100%), rgba(0, 0, 0, 0.95);
+	}
+
+	.header_notify img {
+		width: 1.2963vh;
+		height: 1.2963vh;
+	}
+
+	.header_notify span {
+		font-size: 2.2222vh;
+		font-family: 'Akrobat';
+		margin-left: 0.7407vh;
+		background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 192.92%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		text-shadow: 0vw 0vw 2.963vh rgba(255, 255, 255, 0.15);
+	}
+
+	.notify_team .header_notify span {
+		margin-left: 0;
+		margin-right: 0.7407vh;
+	}
+
+	.line_nf,
+	.line_hudset {
+		width: 0.3704vh;
+		height: 1.0185vh;
+		margin-left: 0.7407vh;
+		margin-right: 0.7407vh;
+	}
+
+	.notify_success .line_nf {
+		border: 0.0926vh solid #BDFF00;
+		background: radial-gradient(122.22% 122.22% at 50% 50%, #BDFF00 0%, rgba(189, 255, 0, 0.00) 100%);
+		box-shadow: 0vw 0vw 2.3333vh 0vw #BDFF00;
+	}
+
+	.notify_error .line_nf,
+	.line_hudset {
+		border: 0.0926vh solid #FF2323;
+		background: radial-gradient(122.22% 122.22% at 50% 50%, #FF2323 0%, rgba(255, 35, 35, 0.00) 100%);
+		box-shadow: 0vw 0vw 2.3333vh 0vw #FF2323;
+	}
+
+	.notify_warning .line_nf,
+	.announce .line_nf,
+	.notify_team .line_nf {
+		border: 0.0926vh solid #FFC123;
+		background: radial-gradient(122.22% 122.22% at 50% 50%, #FFC123 0%, rgba(255, 193, 35, 0.00) 100%);
+		box-shadow: 0vw 0vw 2.3333vh 0vw #FFC123;
+	}
+
+	.box_ctg_nf {
+		height: 1.9444vh;
+		padding-left: 0.463vh;
+		padding-right: 0.463vh;
+		font-size: 1.2963vh;
+		font-family: 'Medium';
+		text-shadow: 0vw 0vw 3.7037vh rgba(255, 255, 255, 0.25);
+	}
+
+	.notify_success .box_ctg_nf {
+		background: radial-gradient(66.67% 66.67% at 50% 50%, #4F611E 0%, #BDFF00 100%);
+		box-shadow: 0vh 0.5556vh 1.4815vh 0vh rgba(189, 255, 0, 0.25);
+	}
+
+	.notify_error .box_ctg_nf,
+	.hud_settings .box_ctg_nf {
+		background: radial-gradient(50% 50% at 50% 50%, #5F1A1A 0%, #FF2323 100%);
+		box-shadow: 0vh 0.5556vh 1.4815vh 0vh rgba(255, 35, 35, 0.25);
+	}
+
+	.notify_warning .box_ctg_nf,
+	.announce .box_ctg_nf,
+	.notify_team .box_ctg_nf {
+		background: radial-gradient(50% 50% at 50% 50%, #604E21 0%, #FFC123 100%);
+		box-shadow: 0vh 0.5556vh 1.4815vh 0vh rgba(255, 193, 35, 0.25);
+	}
+
+    .announce {
+		position: absolute;
+		top: 2.2222vh;
+	}
+
+	.text_notify {
+		padding: 0.3704vh;
+		text-align: left;
+		font-size: 1.4815vh;
+		font-family: 'Regular';
+		background: rgba(255, 255, 255, 0.05);
+		margin-right: auto;
+		margin-top: 0.7407vh;
+	}
+
+	.barnovlaue {
+		width: 0.2778vh;
+		height: auto;
+		background: rgba(0, 0, 0, 0.50);
+		position: relative;
+	}
+
+	.barvalue {
+		width: 0.2778vh;
+		height: 25%;
+		position: absolute;
+		bottom: 0;
+	}
+
+	.notify_success .barvalue {
+		background: #BDFF00;
+		box-shadow: 0vw 0vw 2.2222vh 0vw rgba(189, 255, 0, 0.50);
+	}
+
+	.notify_error .barvalue {
+		background: #FF2323;
+		box-shadow: 0vw 0vw 2.2222vh 0vw rgba(255, 35, 35, 0.50);
+	}
+
+	.notify_warning .barvalue,
+	.notify_team .barvalue {
+		background: #FFC123;
+		box-shadow: 0vw 0vw 2.2222vh 0vw rgba(255, 193, 35, 0.50);
+	}
+
+	.notify {
+		margin-left: 0.3704vh;
+	}
+
+	.notifys {
+		position: absolute;
+		left: 0;
+		top: 10.0926vh;
+		height: 41.6667vh;
+		overflow: hidden;
+	}
+
+	.notify_success,
+	.notify_warning,
+	.notify_error {
+		margin-left: 2.2222vh;
+		margin-top: 0.7407vh;
+		animation: showNotification 0.45s ease forwards;
+		transform: translateX(-27.037vh);
+		transition: all 0.45s ease;
+	}
+
+	@keyframes showNotification {
+		to {
+			opacity: 1;
+			transform: translateX(0vh)
+		}
+	}
+
+	@keyframes hideNotification {
+		from {
+			opacity: 1;
+			transform: translateX(0vh)
+		}
+
+		to {
+			opacity: 0;
+			transform: translateX(-27.037vh)
+		}
+	}
+
+	@keyframes hideNotificationTeam {
+		from {
+			opacity: 1;
+			transform: translateX(0vh)
+		}
+
+		to {
+			opacity: 0;
+			transform: translateX(27.037vh)
+		}
+	}
+}
+
+@media (min-width: 800px) {
+    .responsive {
+        margin-left: 32vh !important;
+        transform: scale(1, 1);
+        bottom: 6.9vh !important;
+    }
+    .q-ml-xl {
+        font-size: 50px;
+    }
+    #Speedo {
+        font-size: 70px !important;
+    }
+    #FuelGaugeBackground {
+        font-size: 36px;
+    }
+    #FuelGaugeValue {
+        font-size: 36px;
+    }
+    #FuelGaugeIcon {
+        font-size: 14px;
+    }
+    #Icons {
+        font-size: 19.5px;
+    }
+    #speedometer {
+        position: relative;
+        left: 2.5vh !important;
+    }
+    #fuelgauge {
+        position: relative;
+        left: 7vh !important;
+        bottom: 6.7vh !important;
+    }
+    #altitudegauge {
+        position: relative;
+        left: 11vh !important;
+    }
+    #seatbelt {
+        position: relative;
+        left: 8.5vh !important;
+    }
+    speed {
+        font-size: 2vh !important;
+    }
+    speed:after {
+        font-size: 0.9vh !important;
+    }
+    altitude {
+        font-size: 2vh !important;
+    }
+    altitude:after {
+        font-size: 0.9vh !important;
+    }
+    .square {
+        left: 2.5vh !important;
+        bottom: 6% !important;
+    }
+    .circle {
+        left: 3.2vh !important;
+        width: 27.6vh !important;
+        bottom: 6.9% !important;
+    }
+}
+
+@media (width: 3840px) and (height: 2160px) {
+    .responsive {
+        margin-left: 32.8vh !important;
+        transform: scale(1.3, 1.3);
+        bottom: 7.6vh !important;
+    }
+    .q-ml-xl {
+        font-size: 100px;
+        margin-left: -45px !important; /* Change this to space radials */
+    }
+    #Speed {
+        font-size: 22px !important;
+        top: -160% !important;
+    }
+    #speed:after {
+        top: -0.2vh !important;
+        left: 1.5vh !important;
+    }
+    #FuelGaugeBackground {
+        font-size: 75px !important;
+        left: 50% !important;
+        top: 20px !important;
+    }
+    #FuelGaugeValue {
+        font-size: 75px !important;
+        left: 0% !important;
+        top: 20px !important;
+    }
+    #FuelGaugeIcon {
+        font-size: 25px;
+    }
+    #Altimeter {
+        font-size: 125px !important;
+        left: 41% !important;
+    }
+    #AltimeterValue {
+        font-size: 125px !important;
+        left: -9% !important;
+    }
+    #Alt {
+        font-size: 50px !important;
+    }
+    #Icons {
+        font-size: 50px;
+    }
+    #SeatbeltLocation {
+        left: 35% !important;
+        top: -40px;
+    }
+    #SeatbeltIcon {
+        font-size: 40px !important;
+    }
+    #speedometer {
+        position: relative;
+        left: 2.5vh !important;
+    }
+    #fuelgauge {
+        position: relative;
+        left: 5.3vh !important;
+        bottom: 7.1vh !important;
+    }
+    #altitudegauge {
+        position: relative;
+        left: 8.2vh !important;
+    }
+    #seatbelt {
+        position: relative;
+        left: -2vh !important;
+        top: 2.0vh !important;
+    }
+    speed {
+        font-size: 1.2vh !important;
+    }
+    speed:after {
+        font-size: 0.6vh !important;
+    }
+    altitude {
+        font-size: 1.2vh !important;
+    }
+    altitude:after {
+        font-size: 0.6vh !important;
+    }
+    .square {
+        left: 2.4vh !important;
+        bottom: 6.1% !important;
+        width: 29.3vh !important;
+    }
+    .circle {
+        left: 3.6vh !important;
+        width: 27.6vh !important;
+        bottom: 6.9% !important;
+    }
+}
+
+@media (width: 3440px) and (height: 1440px) {
+    .responsive {
+        margin-left: 33vh !important;
+        transform: scale(1.3, 1.3);
+        bottom: 7.6vh !important;
+    }
+    .q-ml-xl {
+        font-size: 50px;
+    }
+    #Speed {
+        font-size: 22px !important;
+        top: -160% !important;
+    }
+    #speed:after {
+        top: -0.2vh !important;
+        left: 1.7vh !important;
+    }
+    #FuelGaugeBackground {
+        font-size: 36px;
+    }
+    #FuelGaugeValue {
+        font-size: 36px;
+    }
+    #FuelGaugeIcon {
+        font-size: 14px;
+    }
+    #Icons {
+        font-size: 19.5px;
+    }
+    #speedometer {
+        position: relative;
+        left: 2.5vh !important;
+    }
+    #fuelgauge {
+        position: relative;
+        left: 5.9vh !important;
+        bottom: 7.7vh !important;
+    }
+    #altitudegauge {
+        position: relative;
+        left: 11vh !important;
+    }
+    #seatbelt {
+        position: relative;
+        left: -4vh !important;
+        top: 2.5vh !important;
+    }
+    speed {
+        font-size: 1.4vh !important;
+    }
+    speed:after {
+        font-size: 0.7vh !important;
+    }
+    altitude {
+        font-size: 1.4vh !important;
+    }
+    altitude:after {
+        font-size: 0.7vh !important;
+    }
+    .square {
+        left: 2.3vh !important;
+        bottom: 6.1% !important;
+        width: 29.3vh !important;
+    }
+    .circle {
+        left: 3.5vh !important;
+        width: 27.6vh !important;
+        bottom: 6.9% !important;
+    }
+}
+
+@media (width: 2560px) and (height: 1440px) {
+    .responsive {
+        margin-left: 33.5vh !important;
+        transform: scale(1.3, 1.3);
+        bottom: 7.2vh !important;
+    }
+    .q-ml-xl {
+        font-size: 50px;
+    }
+    #Speed {
+        font-size: 22px !important;
+        top: -160% !important;
+    }
+    #speed:after {
+        top: -0.2vh !important;
+        left: 1.7vh !important;
+    }
+    #FuelGaugeBackground {
+        font-size: 36px;
+    }
+    #FuelGaugeValue {
+        font-size: 36px;
+    }
+    #FuelGaugeIcon {
+        font-size: 14px;
+    }
+    #Icons {
+        font-size: 19.5px;
+    }
+    #speedometer {
+        position: relative;
+        left: 2.5vh !important;
+    }
+    #fuelgauge {
+        position: relative;
+        left: 5.9vh !important;
+        bottom: 7.2vh !important;
+    }
+    #altitudegauge {
+        position: relative;
+        left: 11vh !important;
+    }
+    #seatbelt {
+        position: relative;
+        left: -4vh !important;
+        top: 2.5vh !important;
+    }
+    speed {
+        font-size: 1.4vh !important;
+    }
+    speed:after {
+        font-size: 0.7vh !important;
+    }
+    altitude {
+        font-size: 1.4vh !important;
+    }
+    altitude:after {
+        font-size: 0.7vh !important;
+    }
+    .square {
+        left: 2.3vh !important;
+        bottom: 6% !important;
+    }
+    .circle {
+        left: 3.5vh !important;
+        width: 27.6vh !important;
+        bottom: 6.7% !important;
+    }
+}
+
+@media (width: 2560px) and (height: 1080px) {
+    #speedometer {
+        position: relative;
+        left: 2.5vh !important;
+    }
+    #fuelgauge {
+        position: relative;
+        left: 6.5vh !important;
+        bottom: 5.7vh !important;
+    }
+    #seatbelt {
+        position: relative;
+        left: 6.5vh !important;
+    }
+    .square {
+        left: 2.5vh !important;
+        bottom: 6% !important;
+    }
+    .circle {
+        left: 3.2vh !important;
+        width: 27.6vh !important;
+        bottom: 6.9% !important;
+    }
+}
+
+@media (width: 1920px) and (height: 1440px) {
+    .responsive {
+        margin-left: 32vh !important;
+        transform: scale(1.2, 1.2);
+        bottom: 7.4vh !important;
+    }
+    .q-ml-xl {
+        font-size: 50px;
+    }
+    #Speedo {
+        font-size: 70px !important;
+    }
+    #FuelGaugeBackground {
+        font-size: 36px;
+    }
+    #FuelGaugeValue {
+        font-size: 36px;
+    }
+    #FuelGaugeIcon {
+        font-size: 14px;
+    }
+    #Icons {
+        font-size: 19.5px;
+    }
+    #speedometer {
+        position: relative;
+        left: 2.5vh !important;
+    }
+    #fuelgauge {
+        position: relative;
+        left: 6.3vh !important;
+        bottom: 6.9vh !important;
+    }
+    #altitudegauge {
+        position: relative;
+        left: 10vh !important;
+    }
+    #seatbelt {
+        position: relative;
+        left: 8vh !important;
+    }
+    speed {
+        font-size: 1.6vh !important;
+    }
+    speed:after {
+        font-size: 0.7vh !important;
+    }
+    altitude {
+        font-size: 1.6vh !important;
+    }
+    altitude:after {
+        font-size: 0.7vh !important;
+    }
+    .square {
+        left: 2vh !important;
+        bottom: 6% !important;
+    }
+    .circle {
+        left: 2.7vh !important;
+        width: 27.6vh !important;
+        bottom: 7% !important;
+    }
+}
+
+@media (width: 1920px) and (height: 1200px) {
+    .responsive {
+        margin-left: 31.5vh !important;
+        transform: scale(1, 1);
+        bottom: 6.4vh !important;
+    }
+    .q-ml-xl {
+        font-size: 50px;
+    }
+    #Speedo {
+        font-size: 70px !important;
+    }
+    #FuelGaugeBackground {
+        font-size: 36px;
+    }
+    #FuelGaugeValue {
+        font-size: 36px;
+    }
+    #FuelGaugeIcon {
+        font-size: 14px;
+    }
+    #Icons {
+        font-size: 19.5px;
+    }
+    #speedometer {
+        position: relative;
+        left: 2.5vh !important;
+    }
+    #fuelgauge {
+        position: relative;
+        left: 6.6vh !important;
+        bottom: 6.05vh !important;
+    }
+    #altitudegauge {
+        position: relative;
+        left: 10vh !important;
+    }
+    #seatbelt {
+        position: relative;
+        left: 8vh !important;
+    }
+    speed {
+        font-size: 1.8vh !important;
+    }
+    speed:after {
+        font-size: 0.8vh !important;
+    }
+    altitude {
+        font-size: 1.8vh !important;
+    }
+    altitude:after {
+        font-size: 0.8vh !important;
+    }
+    .square {
+        left: 2.2vh !important;
+        bottom: 6% !important;
+    }
+    .circle {
+        left: 3.2vh !important;
+        width: 27.6vh !important;
+        bottom: 7% !important;
+    }
+}
+
+@media (width: 1920px) and (height: 1080px) {
+    .responsive {
+        margin-left: 32vh !important;
+        transform: scale(1, 1);
+        bottom: 6.9vh !important;
+    }
+    #playerHud {
+        transform: scale(0.98) !important;
+        bottom: 1vh !important;
+    }
+    .q-ml-xl {
+        font-size: 50px;
+    }
+    #Speedo {
+        font-size: 70px !important;
+    }
+    #FuelGaugeBackground {
+        font-size: 36px;
+    }
+    #FuelGaugeValue {
+        font-size: 36px;
+    }
+    #FuelGaugeIcon {
+        font-size: 14px;
+    }
+    #Icons {
+        font-size: 19.5px;
+    }
+    #speedometer {
+        position: relative;
+        left: 2.5vh !important;
+    }
+    #fuelgauge {
+        position: relative;
+        left: 7.2vh !important;
+        bottom: 6.6vh !important;
+    }
+    #altitudegauge {
+        position: relative;
+        left: 11vh !important;
+    }
+    #seatbelt {
+        position: relative;
+        left: -5.6vh !important;
+    }
+    speed {
+        font-size: 2vh !important;
+    }
+    speed:after {
+        font-size: 1.2vh !important;
+    }
+    altitude {
+        font-size: 2vh !important;
+    }
+    altitude:after {
+        font-size: 0.9vh !important;
+    }
+    .square {
+        left: 2.5vh !important;
+        bottom: 6% !important;
+    }
+    .circle {
+        left: 3.7vh !important;
+        width: 27.3vh !important;
+        bottom: 7% !important;
+    }
+}
+
+@media (width: 1280px) and (height: 720px) {
+    .responsive {
+        margin-left: 30vh !important;
+        transform: scale(0.65, 0.65);
+        bottom: 4.7vh !important;
+    }
+    .q-ml-xl {
+        font-size: 50px;
+    }
+    #Speedo {
+        font-size: 70px !important;
+    }
+    #FuelGaugeBackground {
+        font-size: 36px;
+    }
+    #FuelGaugeValue {
+        font-size: 36px;
+    }
+    #FuelGaugeIcon {
+        font-size: 14px;
+    }
+    #Icons {
+        font-size: 19.5px;
+    }
+    #speedometer {
+        position: relative;
+        left: 2.5vh !important;
+    }
+    #fuelgauge {
+        position: relative;
+        left: 8.6vh !important;
+        bottom: 5.2vh !important;
+    }
+    #altitudegauge {
+        position: relative;
+        left: 11vh !important;
+    }
+    #seatbelt {
+        position: relative;
+        left: 8.5vh !important;
+    }
+    speed {
+        font-size: 3vh !important;
+    }
+    speed:after {
+        font-size: 1.4vh !important;
+    }
+    altitude {
+        font-size: 3vh !important;
+    }
+    altitude:after {
+        font-size: 1.4vh !important;
+    }
+    .square {
+        left: 2.5vh !important;
+        bottom: 6% !important;
+    }
+    .circle {
+        left: 4vh !important;
+        width: 27.6vh !important;
+        bottom: 6.9% !important;
+    }
+}
