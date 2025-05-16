@@ -1,0 +1,1225 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/pricedown");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium&display=swap');
+
+@font-face {
+    font-family: 'Shadows';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Shadows'), url('../assets/fonts/ShadowsHighstter-Yq3Ey.woff') format('woff');
+    }
+  
+  @font-face { 
+    font-family: 'Regular';
+    src: url('../assets/fonts/Gilroy-Regular.ttf');
+  }
+  @font-face { 
+    font-family: 'Medium';
+    src: url('../assets/fonts/Gilroy-Medium.ttf');
+  }
+  @font-face { 
+    font-family: 'SemiBold';
+    src: url('../assets/fonts/Gilroy-Semibold.ttf');
+  }
+  @font-face { 
+    font-family: 'Akrobat';
+    src: url('../assets/fonts/Akrobat-Black.otf');
+  }
+
+  body,
+html {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	font-size: 0.7292vw;
+	overflow: hidden;
+	color: white;
+	/* background: gray; */
+}
+
+/* Menu */
+div#openmenu {
+    display: none;
+    position: absolute;
+    width: 50%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgb(255, 77, 77);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 77, 77, 0.5),
+                inset 0 0 20px rgba(255, 77, 77, 0.3);
+    overflow: hidden;
+}
+
+.server-logo {
+    width: 25%;
+}
+
+.flex {
+	display: flex;
+}
+.clmn {
+	display: flex;
+	flex-direction: column;
+}
+.alcn {
+	display: flex;
+	align-items: center;
+}
+.rev {
+	flex-direction: row-reverse;
+}
+
+/* when using an svg all you need to change is the width and it will resize it */
+
+.server-copyrights {
+    text-align: center; /* Center align content horizontally */
+    padding-top: 5px; /* Adjust top padding as needed */
+    z-index: 9999;
+}
+
+.server-copyrights img {
+    max-width: 7%; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures image is centered properly */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+/* Menu tab & panel styles */
+.text-tabcolor {
+    color: rgb(255, 255, 255) !important;
+}
+
+.bg-active-tab {
+    background: rgba(0, 0, 0, 0.92) !important;
+}
+
+.bg-panel {
+    background: rgba(0, 0, 0, 0.95) !important;
+}
+
+.q-tab-panels {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border: none !important;
+}
+
+/* change all 12px for a different border radius (rounds edges of the menu) */
+.q-splitter__panel.q-splitter__before {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border: none !important;
+}
+
+/* change all 12px for a different border radius (rounds edges of the menu) */
+.q-tabs--vertical.q-tabs--not-scrollable .q-tabs__content {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border: none !important;
+}
+
+/* change all 12px for a different border radius (rounds edges of the menu) */
+
+/* Menu text styles */
+.text-h6 {
+    color: rgb(255, 255, 255) !important;
+}
+
+.text-h7 {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Menu buttons & checkboxes & toggle switch icons styles */
+.text-textbutton {
+    color: rgb(255, 255, 255) !important;
+}
+
+.bg-bgbutton {
+    background: rgb(255, 77, 77) !important;
+    border-radius: 25px !important;
+    box-shadow: 0 0 15px rgba(255, 77, 77, 0.5) !important;
+    transition: all 0.3s ease !important;
+}
+
+.bg-bgbutton:hover {
+    box-shadow: 0 0 20px rgba(255, 77, 77, 0.8) !important;
+    transform: translateY(-2px) !important;
+}
+
+.q-btn {
+    border-radius: 25px !important;
+    overflow: hidden !important;
+}
+
+.q-checkbox__inner {
+    color: rgb(255 255 255 / 70%) !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+}
+
+.text-checkbox {
+    color: rgb(255, 77, 77) !important;
+}
+
+.q-checkbox__svg {
+    color: rgb(255, 255, 255) !important;
+}
+
+.q-checkbox__inner--truthy .q-checkbox__bg {
+    background: rgb(255, 77, 77) !important;
+    box-shadow: 0 0 15px rgba(255, 77, 77, 0.5) !important;
+    border-radius: 50% !important;
+    transition: all 0.3s ease !important;
+}
+
+.q-checkbox__inner:hover .q-checkbox__bg {
+    box-shadow: 0 0 20px rgba(255, 77, 77, 0.8) !important;
+}
+
+.q-checkbox__bg {
+    border-radius: 50% !important;
+    border: 2px solid rgb(255, 77, 77) !important;
+    transition: all 0.3s ease !important;
+}
+
+/* if you want the checkboxes to have a glow/shadow */
+.text-toggleicons {
+    color: rgb(255, 255, 255) !important;
+}
+
+/* Menu misc */
+hr {
+    opacity: 0.1 !important;
+}
+
+/* horizontal line that seperates sections */
+.q-mb-md {
+    margin-bottom: 0px !important;
+}
+
+/* removes extra top padding */
+.q-mb-md-d {
+    padding-left: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+/* keeps q-items aligned */
+.q-item {
+    padding: 8px 0px !important;
+}
+
+/* keeps q-items aligned */
+.q-item__section--avatar {
+    min-width: 40px !important;
+}
+
+/* keeps q-items aligned */
+.q-item__section--side {
+    padding-right: 0px !important;
+}
+
+/* keeps q-items aligned */
+.q-splitter--vertical>.q-splitter__separator {
+    width: 0px !important;
+}
+
+/* keeps navigation tab panel seamless */
+div#q-loading-bar {
+    display: none !important;
+}
+
+/* makes sure there's no ajax load from quasar */
+::-webkit-scrollbar {
+    display: none !important;
+}
+
+/* makes sure there's no ugly scrollbar on menu*/
+
+/* Hud radial styles */
+.text-health {
+    color: rgb(255, 77, 77) !important;
+}
+
+.text-stress {
+    color: rgb(255, 0, 0) !important;
+}
+
+.text-sugar {
+    color: rgb(255, 88, 177) !important;
+}
+
+.text-energy {
+    color: rgb(255, 165, 0) !important;
+}
+
+.text-nos {
+    color: rgb(255, 72, 133) !important;
+}
+
+.text-cruise {
+    color: rgb(255, 72, 133) !important;
+}
+
+.text-armed {
+    color: rgb(255, 72, 133) !important;
+}
+
+.text-harness {
+    color: rgb(182, 72, 255) !important;
+}
+
+.text-oxygen {
+    color: rgb(138, 168, 189) !important;
+}
+
+.text-SafeZone {
+    color: rgb(8, 188, 23) !important;
+}
+
+.text-parachute {
+    color: rgb(0, 0, 0) !important;
+}
+
+.text-dev {
+    color: rgb(0, 0, 0) !important;
+}
+
+.text-gauge {
+    color: rgb(255, 77, 77) !important;
+}
+
+.text-bgauge {
+    color: rgb(70, 70, 70) !important;
+}
+
+
+#main-container {
+    width: 100%;
+    height: auto;
+}
+
+/* Money */
+#money-container {
+    position: absolute;
+    right: 2vw;
+    top: 5vh;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#sign,
+#bank {
+    font-family: "Pricedown Bl", sans-serif;
+    text-align: right;
+    color: rgb(255, 77, 77);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7), 1px -1px 0 rgba(0, 0, 0, 0.7), -1px 1px 0 rgba(0, 0, 0, 0.7), 1px 1px 0 rgba(0, 0, 0, 0.7);
+}
+
+#plus {
+    font-size: 50px;
+    font-family: "Pricedown Bl", sans-serif;
+    text-align: right;
+    color: rgb(255, 77, 77);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7), 1px -1px 0 rgba(0, 0, 0, 0.7), -1px 1px 0 rgba(0, 0, 0, 0.7), 1px 1px 0 rgba(0, 0, 0, 0.7);
+}
+
+#minus {
+    font-size: 50px;
+    font-family: "Pricedown Bl", sans-serif;
+    text-align: right;
+    color: #ac0000;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7), 1px -1px 0 rgba(0, 0, 0, 0.7), -1px 1px 0 rgba(0, 0, 0, 0.7), 1px 1px 0 rgba(0, 0, 0, 0.7);
+}
+
+#money {
+    font-family: "Pricedown Bl", sans-serif;
+    text-align: right;
+    color: #ffffff;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7), 1px -1px 0 rgba(0, 0, 0, 0.7), -1px 1px 0 rgba(0, 0, 0, 0.7), 1px 1px 0 rgba(0, 0, 0, 0.7);
+}
+
+/* Player HUD */
+#playerHud {
+    position: absolute;
+    display: flex;
+    left: 3vh;
+    bottom: 0.8vh;
+    gap: 8px;
+}
+
+.q-ml-xl {
+    margin-left: -22px !important;
+}
+
+/* HUD Elements Base Styles */
+.status-box {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 4px;
+}
+
+.status-background {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+}
+
+/* Add background fill */
+.status-fill::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+.status-fill {
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    right: 4px;
+    height: calc(100% - 8px);
+    border: none;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: clip-path 0.3s ease-out;
+    transform-origin: bottom;
+    background: none !important;
+}
+
+/* Make the main fill stroke animate while background stays static */
+.status-fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid;
+    border-radius: 50%;
+    opacity: 1;
+    clip-path: inset(var(--fill-level, 100%) 0 0 0);
+    transition: clip-path 0.3s ease-out;
+}
+
+.status-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+/* Health icon */
+#healthGroup .status-icon {
+    color: #2ecc71;
+    text-shadow: 0 0 10px rgba(46, 204, 113, 0.8);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Death state for health */
+#healthGroup.dead .status-icon {
+    color: #e74c3c;
+    text-shadow: 0 0 10px rgba(231, 76, 60, 0.8);
+    animation: pulse-death 2s infinite;
+}
+
+#healthGroup.dead .status-fill::before {
+    border-color: #e74c3c;
+}
+
+#healthGroup.dead .status-fill::after {
+    border-color: #e74c3c;
+}
+
+@keyframes pulse-death {
+    0% { 
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    50% { 
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 0.7;
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
+/* Armor icon */
+#armorGroup .status-icon {
+    color: #3498db;
+    text-shadow: 0 0 10px rgba(52, 152, 219, 0.8);
+}
+
+/* Hunger icon */
+#hungerGroup .status-icon {
+    color: #e67e22;
+    text-shadow: 0 0 10px rgba(230, 126, 34, 0.8);
+}
+
+/* Thirst icon */
+#thirstGroup .status-icon {
+    color: #00c3ff;
+    text-shadow: 0 0 10px rgba(0, 195, 255, 0.8);
+}
+
+/* Stress icon */
+#stressGroup .status-icon {
+    color: #e74c3c;
+    text-shadow: 0 0 10px rgba(231, 76, 60, 0.8);
+}
+
+
+/* Armed icon */
+#armedGroup .status-icon {
+    color: #ff4885;
+    text-shadow: 0 0 10px rgba(255, 72, 133, 0.8);
+}
+
+/* Parachute icon */
+#parachuteGroup .status-icon {
+    color: #464646;
+    text-shadow: 0 0 10px rgba(70, 70, 70, 0.8);
+}
+
+/* Engine icon */
+#engineGroup .status-icon {
+    color: #2ecc71;
+    text-shadow: 0 0 10px rgba(46, 204, 113, 0.8);
+}
+
+/* Harness icon */
+#harnessGroup .status-icon {
+    color: #b648ff;
+    text-shadow: 0 0 10px rgba(182, 72, 255, 0.8);
+}
+
+/* Cruise icon */
+#cruiseGroup .status-icon {
+    color: #83c336;
+    text-shadow: 0 0 10px rgba(131, 195, 54, 0.8);
+}
+
+/* NOS icon */
+#nosGroup .status-icon {
+    color: #1d88ba;
+    text-shadow: 0 0 10px rgba(29, 136, 186, 0.8);
+}
+
+/* Dev icon */
+#devGroup .status-icon {
+    color: #464646;
+    text-shadow: 0 0 10px rgba(70, 70, 70, 0.8);
+}
+
+/* SafeZone icon */
+#safezoneGroup .status-icon {
+    color: var(--b-zone-bar-color);
+    text-shadow: 0 0 10px var(--b-zone-bar-color);
+}
+
+/* Health indicator */
+#healthGroup .status-fill {
+    border-color: transparent;
+}
+#healthGroup .status-fill::before {
+    border-color: #2ecc71;
+}
+#healthGroup .status-fill::after {
+    border-color: #2ecc71;
+}
+
+/* Armor indicator */
+#armorGroup .status-fill {
+    border-color: transparent;
+}
+#armorGroup .status-fill::before {
+    border-color: #3498db;
+}
+#armorGroup .status-fill::after {
+    border-color: #3498db;
+}
+
+/* Hunger indicator */
+#hungerGroup .status-fill {
+    border-color: transparent;
+}
+#hungerGroup .status-fill::before {
+    border-color: #e67e22;
+}
+#hungerGroup .status-fill::after {
+    border-color: #e67e22;
+}
+
+/* Thirst indicator */
+#thirstGroup .status-fill {
+    border-color: transparent;
+}
+#thirstGroup .status-fill::before {
+    border-color: #00c3ff;
+}
+#thirstGroup .status-fill::after {
+    border-color: #00c3ff;
+}
+
+/* Stress indicator */
+#stressGroup .status-fill {
+    border-color: transparent;
+}
+#stressGroup .status-fill::before {
+    border-color: #e74c3c;
+}
+#stressGroup .status-fill::after {
+    border-color: #e74c3c;
+}
+
+
+/* Armed indicator */
+#armedGroup .status-fill {
+    background: none !important;
+}
+#armedGroup .status-fill::before {
+    border-color: #ff4885;
+}
+#armedGroup .status-fill::after {
+    border-color: #ff4885;
+}
+
+/* Parachute indicator */
+#parachuteGroup .status-fill {
+    background: none !important;
+}
+#parachuteGroup .status-fill::before {
+    border-color: #464646;
+}
+#parachuteGroup .status-fill::after {
+    border-color: #464646;
+}
+
+/* Engine indicator */
+#engineGroup .status-fill {
+    border-color: transparent;
+}
+#engineGroup .status-fill::before {
+    border-color: #2ecc71;
+}
+#engineGroup .status-fill::after {
+    border-color: #2ecc71;
+}
+
+/* Harness indicator */
+#harnessGroup .status-fill {
+    background: none !important;
+}
+#harnessGroup .status-fill::before {
+    border-color: #b648ff;
+}
+#harnessGroup .status-fill::after {
+    border-color: #b648ff;
+}
+
+/* Cruise indicator */
+#cruiseGroup .status-fill {
+    background: none !important;
+}
+#cruiseGroup .status-fill::before {
+    border-color: #83c336;
+}
+#cruiseGroup .status-fill::after {
+    border-color: #83c336;
+}
+
+/* NOS indicator */
+#nosGroup .status-fill {
+    background: none !important;
+}
+#nosGroup .status-fill::before {
+    border-color: #1d88ba;
+}
+#nosGroup .status-fill::after {
+    border-color: #1d88ba;
+}
+
+/* Dev indicator */
+#devGroup .status-fill {
+    background: none !important;
+}
+#devGroup .status-fill::before {
+    border-color: #464646;
+}
+#devGroup .status-fill::after {
+    border-color: #464646;
+}
+
+/* SafeZone indicator */
+#safezoneGroup .status-fill {
+    background: none !important;
+}
+#safezoneGroup .status-fill::before {
+    border-color: var(--b-zone-bar-color);
+}
+#safezoneGroup .status-fill::after {
+    border-color: var(--b-zone-bar-color);
+}
+
+/* Warning state for low values */
+[id$="Group"] .status-fill[style*="height: 20"] {
+    animation: warning-pulse 1s ease-in-out infinite;
+}
+
+@keyframes warning-pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+/* Remove old styles */
+.ldBar {
+    display: none !important;
+}
+
+/* Vehicle HUD */
+
+#speed:after {
+    content: "KPH";
+    /* If using KPH change this content from MPH */
+    display: block;
+    position: absolute;
+    font-family: 'Gravitica', sans-serif;
+    color: rgba(255, 255, 255, 0.873);
+    top: -0.4vh;
+    left: 2vh;
+    padding-bottom: 8px;
+    font-weight: 900;
+    font-size: 7px;
+    text-shadow: none;
+}
+
+altitude:after {
+    content: "ALT";
+    display: block;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Gravitica';
+    src: url('https://res.cloudinary.com/davecbj4z/raw/upload/v1686655001/ckhans-fonts-gravitica-light-demo_xrit7c.otf');
+}
+
+#speed {
+    transform: rotate(150deg);
+    font-size: 1.9vh;
+    position: absolute;
+    font-family: 'Gravitica', sans-serif;
+    color: #8f8f8f;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+
+altitude {
+    transform: rotate(135deg);
+    font-size: 2.4vh;
+    position: fixed;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7), 1px -1px 0 rgba(0, 0, 0, 0.7), -1px 1px 0 rgba(0, 0, 0, 0.7), 1px 1px 0 rgba(0, 0, 0, 0.7);
+}
+
+/* Animation */
+.slide-fade-enter-active {
+    transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+    transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+/* Compass */
+
+#baseplate-container {
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 100%);
+}
+
+.baseplate {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+}
+
+.street-container {
+    position: relative;
+    top: 0.7vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vh;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    font-weight: 800;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0.6);
+}
+
+.street1 {
+    position: absolute;
+    margin: 0 auto;
+    right: 62%;
+    text-align: right !important;
+    color: rgb(255, 77, 77);
+}
+
+.street2 {
+    position: absolute;
+    margin: 0 auto;
+    left: 62%;
+    text-align: left !important;
+    color: rgb(255, 77, 77);
+}
+
+.pointer {
+    position: absolute;
+    margin: 0 auto;
+    top: -15%;
+    left: 0;
+    right: 0;
+    font-family: "Yantramanav", sans-serif;
+    color: hsl(167, 85%, 50%);
+    font-size: 2.2vh;
+    text-align: center;
+    text-shadow: rgba(59, 210, 167, 1) 0px 0px 5px;
+    z-index: 9999;
+}
+
+.degrees {
+    position: absolute;
+    margin: 0 auto;
+    top: 100%;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    font-family: "Yantramanav", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vh;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0 0 1px rgb(0 0 0 / 60%), 0 0 1px rgb(0 0 0 / 60%), 0 0 1px rgb(0 0 0 / 60%), 0 0 1px rgb(0 0 0 / 60%);
+}
+
+.bezel {
+    position: relative;
+    width: 100%;
+    height: 2vh;
+    font-family: "Yantramanav", sans-serif;
+    font-size: 0.35vh;
+    font-weight: 700;
+}
+
+.bearing {
+    position: relative;
+    width: 100%;
+    height: 1.5vh;
+    padding-left: 0.12vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .6vh;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+
+
+:root {
+    --radio-bar-color: #84898f;
+    /* Default color */
+    --talk-bar-color: #84898f;
+    /* Default color */
+}
+
+
+
+/* Fuel Counter */
+#progressBar {
+    width: 11px;
+    /* Adjust as needed */
+    height: 80px;
+    /* Adjust as needed */
+    position: relative;
+    border-width: 3px;
+    /* Adjust as needed */
+    border-style: solid;
+    border-color: #2b2b2b74;
+    background: #2b2b2b9a;
+}
+
+#progressBar .progress {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    /* Start with 0% height */
+    background: #ffffff;
+    transition: height 0.5s;
+    box-sizing: border-box;
+    /* Include padding and border in width */
+}
+
+
+#SeatbeltIcon {
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+    top: -11.2vh;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/* End Fuel Counter */
+
+
+/* RPM Counter*/
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.item {
+    width: 4px;
+    /*border: 1px solid #5f6167;*/
+    background-color: rgb(70, 70, 70);
+    transform: rotate(5deg);
+    border-radius: 10px;
+    margin-left: 4px;
+    float: left;
+    display: block;
+    height: 30px;
+}
+
+.filled {
+    background-color: rgb(255, 77, 77) !important;
+}
+
+.critical {
+    background-color: #cc4d53 !important;
+}
+
+
+.colorcreator {
+    color: rgba(29, 136, 186, 0.352);
+}
+
+/* End of RPM Counter*/
+
+
+#gearBox {
+    position: absolute;
+    width: 32px;
+    height: 43px;
+    border-radius: 3px;
+    background-color: rgb(255, 77, 77);
+    /* Add an inside shadow and an outside glow */
+    box-shadow: inset 0 0 10px 1px #000000df, 0 0 6px rgb(255, 77, 77);
+}
+
+
+/* Gears Counter*/
+
+#gear {
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(21, 20, 24);
+    text-align: center;
+}
+
+
+#god {
+    color: #287fcc;
+}
+
+/* Checkbox styles */
+.q-checkbox[val="16"] .q-checkbox__inner {
+    color: rgb(255 255 255 / 70%) !important;
+}
+
+.q-checkbox[val="17"] .q-checkbox__inner {
+    color: rgb(255 255 255 / 70%) !important;
+}
+
+.sugar-checkbox .q-checkbox__label {
+    color: rgb(255 255 255 / 70%) !important;
+}
+
+.energy-checkbox .q-checkbox__label {
+    color: rgb(255 255 255 / 70%) !important;
+}
+
+/* End of file */
+
+/* Voice Indicator Styles */
+#voice-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.voice-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    pointer-events: auto;
+}
+
+.voice-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voice-icon i {
+    color: #ff4d4d;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgba(255, 77, 77, 0.8);
+    transition: all 0.3s ease;
+}
+
+/* Regular talking style */
+.voice-icon i.talking {
+    color: #ffffff;
+    animation: pulse 1s infinite;
+    text-shadow: 0 0 10px rgba(253, 253, 253, 0.8);
+}
+
+/* Radio style */
+.voice-icon i.radio {
+    color: #dbd034;
+}
+
+/* Radio talking style */
+.voice-icon i.radio.talking {
+    color: #dbd034;
+    animation: pulse 1s infinite;
+    text-shadow: 0 0 10px rgba(219, 216, 52, 0.8);
+}
+
+.voice-bars {
+    display: flex;
+    gap: 3px;
+    align-items: flex-end;
+}
+
+.voice-bars .bar {
+    width: 4px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Bar colors based on state */
+.voice-bars .bar.active {
+    background: rgba(255, 77, 77, 0.8);
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
+}
+
+.voice-bars .bar.active.talking {
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    animation: barPulseGreen 1s infinite;
+}
+
+.voice-bars .bar.active.radio {
+    background: #dbd034;
+    box-shadow: 0 0 10px rgba(219, 216, 52, 0.5);
+}
+
+.voice-bars .bar.active.radio.talking {
+    animation: barPulseBlue 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); text-shadow: 0 0 10px currentColor; }
+    50% { transform: scale(1.1); text-shadow: 0 0 20px currentColor; }
+    100% { transform: scale(1); text-shadow: 0 0 10px currentColor; }
+}
+
+@keyframes barPulseGreen {
+    0% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
+    100% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+}
+
+@keyframes barPulseBlue {
+    0% { box-shadow: 0 0 10px rgba(219, 216, 52, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(219, 216, 52, 0.8); }
+    100% { box-shadow: 0 0 10px rgba(219, 216, 52, 0.5); }
+}
+
+
+
+/* Armed indicator */
+#armedGroup .status-fill {
+    background: rgb(255, 72, 133);
+    box-shadow: 0 0 10px rgba(255, 72, 133, 0.3);
+}
+
+/* Parachute indicator */
+#parachuteGroup .status-fill {
+    background: rgb(70, 70, 70);
+    box-shadow: 0 0 10px rgba(70, 70, 70, 0.3);
+}
+
+/* Engine indicator */
+#engineGroup .status-fill {
+    border-color: transparent;
+}
+#engineGroup .status-fill::before {
+    border-color: #2ecc71;
+}
+#engineGroup .status-fill::after {
+    border-color: #2ecc71;
+}
+
+/* Harness indicator */
+#harnessGroup .status-fill {
+    background: rgb(182, 72, 255);
+    box-shadow: 0 0 10px rgba(182, 72, 255, 0.3);
+}
+
+/* Cruise indicator */
+#cruiseGroup .status-fill {
+    background: rgb(131, 195, 54);
+    box-shadow: 0 0 10px rgba(131, 195, 54, 0.3);
+}
+
+/* NOS indicator */
+#nosGroup .status-fill {
+    background: rgb(29, 136, 186);
+    box-shadow: 0 0 10px rgba(29, 136, 186, 0.3);
+}
+
+/* Dev indicator */
+#devGroup .status-fill {
+    background: rgb(70, 70, 70);
+    box-shadow: 0 0 10px rgba(70, 70, 70, 0.3);
+}
+
+/* SafeZone indicator */
+#safezoneGroup .status-fill {
+    background: var(--b-zone-bar-color);
+    box-shadow: 0 0 10px var(--b-zone-bar-color);
+}
+
+/* Remove old styles */
+.ldBar {
+    display: none !important;
+}
+
+#Icons {
+    display: none !important;
+}
+
+/* Adjust spacing between status boxes */
+#playerHud > div {
+    margin: 0 !important;
+}
+
+/* Oxygen indicator */
+#oxygenGroup .status-fill {
+    border-color: transparent;
+}
+#oxygenGroup .status-fill::before {
+    border-color: #8aa8bd;
+}
+#oxygenGroup .status-fill::after {
+    border-color: #8aa8bd;
+}
+
+/* Oxygen icon */
+#oxygenGroup .status-icon {
+    color: #8aa8bd;
+    text-shadow: 0 0 10px rgba(138, 168, 189, 0.8);
+}
+
+
+/* Media queries for different resolutions */
+@media (width: 3840px) and (height: 2160px) {
+    #priority-cooldown {
+        bottom: 22%;
+        left: 2%;
+        transform: scale(1.5);
+    }
+}
+
+@media (width: 2560px) and (height: 1440px) {
+    #priority-cooldown {
+        bottom: 21.8%;
+        left: 1.8%;
+        transform: scale(1.3);
+    }
+}
+
+@media (width: 1920px) and (height: 1080px) {
+    #priority-cooldown {
+        bottom: 26%;
+        left: 1.5%;
+    }
+}
+
+@media (width: 1280px) and (height: 720px) {
+    #priority-cooldown {
+        bottom: 21%;
+        left: 1.2%;
+        transform: scale(0.8);
+    }
+}
