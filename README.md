@@ -6,6 +6,9 @@
 # Qb-hud redesign
 <div align='center'><img src='https://i.ibb.co/HLKBS0sj/CSTMZD-copy.png'/></div>
 
+# Credits
+Scripted redesigned and refined from this wonderful hud made by rohKane : https://github.com/rohKane/Kane-qb-hud-Nopixel-4.0-inspired
+
 ## What has been changed?
 - New fresh design for the bars and filling bars.
 - New Voice chat / Radio UI.
